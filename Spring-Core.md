@@ -23,3 +23,5 @@
 - @Configuration Đánh dấu class là 1 class cấu hình, sử dụng method để cấu hình
 - @Entity đánh dấu class là 1 entity
 - @Autowired đánh dấu để spring tự động gán giá trị vào phương thức, thuộc tính hoặc là constructor của bean
+
+6. Native Query là dev có thể tự viết query để tối ưu và tinh chỉnh query đó
