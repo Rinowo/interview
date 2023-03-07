@@ -14,4 +14,12 @@
 - Hibernate có HQL tức là có thể thay đổi db mà không phải sửa truy vấn bởi vì hibernate có thể tự thay đổi truy vấn cho phù hợp với db được sử dụng
 - Nhược điểm của hibernate là những câu truy vấn không được tối ưu vì được tạo ra tự động
 
-5. 
+5. Các Annotation phổ biến trong spring
+- @Component
+- @Service
+- @Repository
+- @Controller
+- @RestController
+- @Configuration
+- @Entity
+- @Autowired
