@@ -15,11 +15,11 @@
 - Nhược điểm của hibernate là những câu truy vấn không được tối ưu vì được tạo ra tự động
 
 5. Các Annotation phổ biến trong spring
-- @Component
-- @Service
-- @Repository
-- @Controller
-- @RestController
-- @Configuration
-- @Entity
-- @Autowired
+- @Component đánh dấu class là 1 bean thông thường, không thuộc loại nào cả
+- @Service đánh dấu class chứa business logic
+- @Repository Đánh dấu interface chứa DAO, giao tiếp với DB
+- @Controller Đánh dấu class là 1 Spring MVC Controller, xử lý HTTP Request từ Client
+- @RestController Đánh dấu class là 1 Restful Controller, xử lý Restful HTTP Request từ Client. Dữ liệu được trả về dưới định dạng xml hoặc json
+- @Configuration Đánh dấu class là 1 class cấu hình, sử dụng method để cấu hình
+- @Entity đánh dấu class là 1 entity
+- @Autowired đánh dấu để spring tự động gán giá trị vào phương thức, thuộc tính hoặc là constructor của bean
